@@ -17,5 +17,6 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 .Beispiel: unsortierte Liste 
 // Platzhalter
 
+
 .Beispiel: sortierte Liste
 // Platzhalter
