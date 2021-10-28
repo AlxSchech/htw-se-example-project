@@ -5,6 +5,7 @@ Alex Schechtel alex.schechtel@htw-dresden.de
 :toc-title: Inhaltsverzeichnis 
 :source-highlighter: rouge 
 :imagesdir: images 
+:xrefstyle: full | short | basic
 // Platzhalter für weitere Dokumenten Attribute
 
 
@@ -79,5 +80,18 @@ int main(int argc, char* argv[])
 
 === Bilder 
 
+.Abbildung 2. Sreenshot VSCode mit AsciiDoc 
 image::Editor.PNG[]
+
+
+=== Verweise
+
+<<hello_world.c>>
+
+<<Tabellen und Textformatierung>>
+
+<<Abbildung 2. Screenshot VSCode mit AsciiDoc>>
+
+include::hello_world.c[]
+
 
