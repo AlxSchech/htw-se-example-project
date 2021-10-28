@@ -1,0 +1,5 @@
+[user]
+	name = Alex Schechtel
+	email = alex.schechtel@htw-dresden.de
+[http]
+	proxy = http://www-cache.htw-dresden.de:3128
