@@ -3,8 +3,10 @@ Alex Schechtel alex.schechtel@htw-dresden.de
 1.0, 23.10.2021
 :toc:
 :toc-title: Inhaltsverzeichnis 
-// Platzhalter für weitere Dokumenten Attribute
 :source-highlighter: rouge 
+:imagesdir: images 
+// Platzhalter für weitere Dokumenten Attribute
+
 
 
 == Einführung 
@@ -54,7 +56,7 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 |Text mit kombinierter Formatierung
 
 |**bold**&__italic__
-|\**bold**&\__italic__
+|\\**bold**&\__italic__
 |Text mit Formatierung innerhalb eines Wortes
 |===
 
@@ -63,7 +65,8 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 === Quellcode 
 
 .hello_world.c
-
+[source,ruby]
+----
 #include <stdio.h>
 
 int main(int argc, char* argv[])
@@ -71,3 +74,10 @@ int main(int argc, char* argv[])
     printf("Hello, World!\n");
     return 0;
 }
+----
+
+
+=== Bilder 
+
+image::Editor.PNG[]
+
