@@ -20,3 +20,6 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 
 .Beispiel: sortierte Liste
 // Platzhalter
+
+
+=== Tabellen und Textformatierung
