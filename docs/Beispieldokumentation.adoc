@@ -16,10 +16,41 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 
 .Beispiel: unsortierte Liste 
 // Platzhalter
-
+* Edgar Allan Poe
+* Sheri S. Tepper
+* Bill Bryson
 
 .Beispiel: sortierte Liste
 // Platzhalter
+1. Protons
+2. Electrons
+3. Neutrons
 
 
 === Tabellen und Textformatierung
+
+[cols="1,1,1"]  
+|=== 
+|*Formatierung*
+|*Syntax* 
+|*Beschreibung*
+
+|*bold* 
+|\*bold* 
+|fetter Text
+
+|_italic__
+|\_italic_
+|kursiver Text
+
+|`monospace` 
+|\`monospace`
+|Text mit fester Laufweite
+
+|*_bold&italic_*
+|\*_bold&italic_*
+|Text mit kombinierter Formatierung
+
+|**bold**&__italic__
+|\**bold**&__italic__
+|Text mit Formatierung innerhalb eines Wortes
