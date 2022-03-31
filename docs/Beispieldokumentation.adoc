@@ -11,7 +11,7 @@ Alex Schechtel alex.schechtel@htw-dresden.de
 
 
 == Einführung 
-Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
+Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc. bla 
 <<<<<<< HEAD
 Hier ensteht eine Änderung
 =======
