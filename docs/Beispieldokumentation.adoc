@@ -3,8 +3,99 @@ Alex Schechtel alex.schechtel@htw-dresden.de
 1.0, 23.10.2021
 :toc:
 :toc-title: Inhaltsverzeichnis 
+:source-highlighter: rouge 
+:imagesdir: images 
+:xrefstyle: full | short | basic
 // Platzhalter für weitere Dokumenten Attribute
+
+
 
 == Einführung 
 Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
+<<<<<<< HEAD
 Hier ensteht eine Änderung
+=======
+
+== Kennenlernen der Syntax
+
+Über die Aufgaben wird das Dokument Stück für Stück aufgebaut und angepasst.
+
+=== Listen
+
+.Beispiel: unsortierte Liste 
+// Platzhalter
+* Edgar Allan Poe
+* Sheri S. Tepper
+* Bill Bryson
+
+.Beispiel: sortierte Liste
+// Platzhalter
+1. Protons
+2. Electrons
+3. Neutrons
+
+
+=== Tabellen und Textformatierung
+
+[cols="1,1,1"]  
+|=== 
+|*Formatierung*
+|*Syntax* 
+|*Beschreibung*
+
+|*bold* 
+|\*bold* 
+|fetter Text
+
+|_italic__
+|\_italic_
+|kursiver Text
+
+|`monospace` 
+|\`monospace`
+|Text mit fester Laufweite
+
+|*_bold&italic_*
+|\*\_bold&italic_*
+|Text mit kombinierter Formatierung
+
+|**bold**&__italic__
+|\\**bold**&\__italic__
+|Text mit Formatierung innerhalb eines Wortes
+|===
+
+**S**__o__ftw__a__r__e__ **__E__**ng__i__n__ee__``ring``
+
+=== Quellcode 
+
+.hello_world.c
+[source,ruby]
+----
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+    printf("Hello, World!\n");
+    return 0;
+}
+----
+
+
+=== Bilder 
+
+.Abbildung 2. Sreenshot VSCode mit AsciiDoc 
+image::Editor.PNG[]
+
+
+=== Verweise
+
+<<hello_world.c>>
+
+<<Tabellen und Textformatierung>>
+
+<<Abbildung 2. Screenshot VSCode mit AsciiDoc>>
+
+include::hello_world.c[]
+
+
+>>>>>>> 197869f5aafaf3dafe858c709ada5e6cf74e0df6
